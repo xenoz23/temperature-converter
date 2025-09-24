@@ -25,26 +25,26 @@ Users can input a temperature in **Celsius, Fahrenheit, or Kelvin**, click **Con
 ## **Installation**
 
 1. **Clone the repository:**
-```bash
+
 git clone https://github.com/xenoz23/temperature-converter.git
 Navigate to the project folder:
 
-bash
+
 Copy code
 cd temperature-converter
 Install dependencies:
 
-bash
+
 Copy code
 npm install
 Start the server:
 
-bash
+
 Copy code
 node server.js
 Open your browser and go to:
 
-arduino
+
 Copy code
 http://localhost:3000
 Usage
@@ -55,7 +55,8 @@ Click the Convert button.
 The other fields will automatically display the converted temperatures.
 
 Project Structure
-graphql
+
+
 Copy code
 temperature-converter/
 │
@@ -66,7 +67,7 @@ temperature-converter/
 │   └── style.css      # CSS for styling
 ├── package.json       # Node.js project dependencies
 └── README.md          # Project documentation
-Screenshot
+
 
 License
 This project is open source and free to use.
