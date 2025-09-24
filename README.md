@@ -26,7 +26,7 @@ Users can input a temperature in **Celsius, Fahrenheit, or Kelvin**, click **Con
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/temperature-converter.git
+git clone https://github.com/xenoz23/temperature-converter.git
 Navigate to the project folder:
 
 bash
