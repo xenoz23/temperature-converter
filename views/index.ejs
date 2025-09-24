@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   <div class="container">
+    <h1>Temperature Converter</h1>
+    <form action="/convert" method="POST">
+        <div class="temp-container">
+            <label for="celsius">Celsius:</label>
+            <input type="number" name="celsius" id="celsius" value="<%= celsius  %>" placeholder="Enter Celsius">
+        </div>
+        <div class="temp-container">
+            <label for="fahrenheit">Fahrenheit:</label>
+            <input type="number" name="fahrenheit" id="fahrenheit" value="<%= fahrenheit %>" placeholder="Enter Fahrenheit">
+        </div>
+        <div class="temp-container">
+            <label for="kelvin">Kelvin:</label>
+            <input type="number" name="kelvin" id="kelvin" value="<%= kelvin %>" placeholder="Enter Kelvin">
+        </div>
+
+        <button type="submit">Convert</button>
+    </form>
+   </div>
+</body>
+</html>
